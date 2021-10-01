@@ -1,0 +1,165 @@
+.main {
+    background-color: hsl(185, 41%, 84%);
+    height: 100vh;
+    min-width: fit-content;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 0.6rem;
+    text-transform: uppercase;
+    color: #00494d;
+    padding: 1rem;
+}
+.outer {
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    width: 70%;
+    min-height: 70%;
+    max-height: fit-content;
+    border-radius: 15px;
+    min-width: min-content;
+}
+.image {
+    float: left;
+    width: 12px;
+    margin-left: 5px;
+    width: 1.5rem;
+}
+.leftHeaders {
+    color: #697d7e;
+    font-size: 24px;
+    padding-left: 4%;
+    padding-top: 3.5%;
+    padding-bottom: 3%;
+}
+.hidden {
+    display: none;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    color: #e37051;
+    font-size: 12px;
+    margin-left: 30%;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+.gridContainer {
+    display: grid;
+    grid-template-rows: 0.9fr 0.9fr;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    text-align: center;
+    padding-top: 3%;
+}
+.percentage {
+    border: none;
+    font-family: inherit;
+    height: auto;
+    background-color: #00474b;
+    color: #fff;
+    font-size: 24px;
+    margin: 0.25rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+    font-weight: 700;
+    text-align: inherit;
+} 
+.percentage:hover {
+    background-color: #9fe8df;
+    color: #00474b;
+}
+.percentage:active {
+    background-color: #9fe8df;
+    color: #00474b;
+}
+.selected {
+    color: hsl(0, 0%, 100%);
+  }
+.totalBill:focus,
+.totalPeople:focus {
+  outline: none;
+  background-color: #f3f8fb;
+  box-shadow: 0 0 0 2px #26c2ad;
+  text-align: end;
+}
+.totalBill,
+.totalPeople {
+  width: 65%;
+  height: 2.5rem;
+  background-color: #f3f8fb;
+  border: none;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: end;
+  color: #00474b;
+  margin-left: 2rem;
+  font-family: 'Space Mono', monospace;
+}
+.totalBill:hover,
+.totalPeople:hover {
+  background-color: #9fe8df;
+  color: hsl(183, 100%, 15%);
+}
+.hiddenTwo {
+    display: none;
+    top: 0;
+    right: 0;
+    color: #e37051;
+    font-size: 12px;
+    margin-left: 30%;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+.hiddenThree {
+    box-shadow: 0 0 0 2px #e37051;
+  }
+.righter {
+    background-color: #00474b;
+    width:initial;
+    height: 85%;
+    border-radius:15px;
+    margin-top: 7%;
+}
+.gridContainerTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 1.5fr;
+    grid-row-gap: 2.5rem;
+    padding-top: 6%;
+    padding-left: 5%;
+}
+.billBox {
+    color: #26c2ad;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding-right: 4%;
+}
+.rightHeaders span {
+    display: block;
+    color: #718e8e;
+    font-size: 1rem;
+}
+p {
+    color: hsl(0, 0%, 100%);
+}
+.resetButton {
+    width: 80%;
+    height: 3.5rem;
+    background-color: #26c2ad;
+    color: #00474b;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    transition: all 0.3s;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 3rem;
+}  
+  .resetButton:hover {
+    background-color: #9fe8df;
+}

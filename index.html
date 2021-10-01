@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet"> 
+  
+  <title>Tip calculator app</title>
+
+</head>
+<body>
+  <div class="main">
+    <div>
+      <h1>Spli <br> tter</h1>
+    </div>
+    <div class="row outer">
+      <div class="col-md-6">
+        <h6 class="leftHeaders">Bill</h6>
+        <img class="image" src="images\icon-dollar.svg" >
+        <div>
+          <h2 class="hidden">Can't be zero</h2>
+          <input type="number" class="totalBill">
+        </div>
+        <h2 class="leftHeaders">Select Tip %</h2>
+        <div class="gridContainer">
+          <input type="button" class="percentage five selected" value="5%">
+          <input type="button" class="percentage ten selected" value="10%">
+          <input type="button" class="percentage fifteen selected" value="15%">
+          <input type="button" class="percentage twentyFive selected" value="25%">
+          <input type="button" class="percentage fifty selected" value="50%">
+          <input type="number" class="percentage custom " placeholder="Custom">
+        </div>
+        <h2 class="leftHeaders">Number of people</h2>
+        <img class="image" src="images\icon-person.svg">
+        <div>
+          <h2 class="hiddenTwo">Can't be zero</h2>
+          <input type="number" class="totalPeople">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="righter">
+          <div class="gridContainerTwo">
+            <h2 class="rightHeaders"><p class="tip">Tip Amount</p><span>/ person</span></h2>
+            <p class="billBox per">$0.00</p>
+            <h2 class="rightHeaders"><p>Total</p><span>/ person</span></h2>
+            <p class="billBox total">$0.00</p>
+          </div>
+          <input class="resetButton" type="button" value="RESET">
+        </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+  <script src="input.js"></script>
+</body>
+</html>
